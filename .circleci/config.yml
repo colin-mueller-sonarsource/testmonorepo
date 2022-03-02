@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - sonarcloud/scan
-    working_directory: ~/repo1
+    working_directory: ~/project/repo1
 
 orbs:
   sonarcloud: sonarsource/sonarcloud@1.0.3
